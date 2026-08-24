@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "programs/tranche_bonding_curve",
+    "programs/transfer_hook_enforcer",
+    "programs/floor_insurance_vault",
+    "programs/community_ouster_dao",
+]
+resolver = "2"
