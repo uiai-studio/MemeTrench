@@ -1,0 +1,6 @@
+{
+  "name": "Omniguard OS: Universal 6-Chain Memecoin Launchpad",
+  "description": "MemeTrench.com — The universal 6-chain memecoin launchpad powering token creations with the 2-2-1 Tri-Vault Revenue Engine, integrated with TrenchScreen.com AI Agent Screener, 60/20/20 Ad Revenue Distribution Pool (20% holder dividends + 20% buyback & burn), Dev Trust Badges, TWAR anti-dump tranche vesting, and 72h soft-landing floor insurance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
