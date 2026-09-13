@@ -182,7 +182,7 @@ MemeTrench is optimized for all screen form factors:
 
 ## 👤 Author & Builder
 
-- **Name:** **UIMUHD**
+- **Name:** **Muhammad Idris Umar**
 - **Role:** Full-Stack & Web3 Software Engineer
 - **Email:** [uiai.studio@gmail.com](mailto:uiai.studio@gmail.com)
 - **GitHub:** [https://github.com/uiai-studio](https://github.com/uiai-studio)
