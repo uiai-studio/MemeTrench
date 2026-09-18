@@ -1,7 +1,57 @@
-# MemeTrench Protocol & TrenchScreen Terminal
+# MemeTrench — Protected Memecoin Launchpad & Trading Terminal
 
-> **Universal 6-Chain Memecoin Launchpad & Real-Time Trading Terminal**  
-> Powered by the Omniguard Protocol • 2-2-1 Tri-Vault Revenue Engine • 60/20/20 Ad Revenue Distribution Pool • Dual-Oracle & 72h Soft-Landing Floor Protection
+The first launchpad engineered so retail traders physically *cannot* be rugged —
+by detectionugveryathematicscs, not promises.
+
+
+## The problem
+
+98.6% of memecoins launched on major platforms end in rug pulls. In 2025, retail
+traders — disproportionately in emerging markets — lost ~$2.8B to rugs, honeypots,
+and developer dumps. Every rug burns a user who may never trade on-chain again.
+
+## The approach
+
+MemeTrench makes rugging structurally unprofitable instead of asking users to
+trust developers:
+
+| Mechanism | What it enforces |
+|---|---|
+| **2-2-1 Tri-Vault Engine** | 5% of every trade splits programmatically: 2% creator stream (linear 30-day unlock — no upfront dump), 2% holder dividends, 1% perpetual buyback & burn |
+| **TWAR 48h Micro-Batch Vesting** | 20% of tokens liquid on buy, 80% unlocks linearly over 48h; 5-block anti-snipe cooldown |
+| **72h Soft-Landing Floor Vault** | If a token stalls below $80K market cap within 72h, 50% of the escrow vault refunds buyers pro-rata in native currency; the rest funds a DAO-supervised relaunch |
+| **Supply Forensics** | Real-time Gini coefficient wallet-distribution telemetry to surface cabal accumulation pre-launch |
+| **Dual-Oracle Validation** | Chainlink vs Pyth cross-checks with &lt;0.5% divergence caps |
+
+## Proof, not promises
+
+Security claims in this space are cheap, so we verify ours publicly:Every rugged detection flagged **before execution**,
+  timestamped, with outcomes published (including our false positives).
+- Contracts: audit in progress — reports will be published here.
+
+The detection engine and scoring models live in a **private repository** by design
+(this is a security product; weights are the moat). The public scoreboard provides
+third-party-verifiable proof of performance without disclosing the system itself.
+
+## Repository layout
+
+This repository contains the open frontend, terminal UI, and protocol documentation.
+
+| Component | Location |
+|---|---|
+| Frontend, trading terminal, launchpad UI | **This repo** (MIT) |
+| Detection engine, scoring models, agent logic | Private (security-critical) |
+| Public prediction log / scoreboard | Public API — link above |
+
+Primary deployment chain: **[BSC / Solana — pick one]**.
+Additional chains (Base, Ethereum, TON, Sui) are roadmap, deployed in priority order.
+
+## Tech stack
+
+React 18 · TypeScript · Tailwind · Vite · Express.js
+Multi-chain client architecture: EVM (BSC, Base, Ethereum), SVM (Solana), TVM (TON), Move (Sui)
+
+## Project structure
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-amber.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
@@ -28,11 +78,7 @@ Traditional launchpads suffer from predatory MEV front-running, sudden rugpulls,
 1. **The 2-2-1 Tri-Vault Revenue Engine** converts transaction fees into sustainable creator salaries, holder dividends, and perpetual deflationary burns.
 2. **60/20/20 Ad Revenue Distribution Pool** creates a self-serve advertising ecosystem where 20% of all sponsor bids are distributed directly to token holders.
 3. **Continuous TWAR 48-Hour Micro-Batch Vesting** eliminates instantaneous post-launch dumps.
-4. **72-Hour Soft-Landing Floor Vault** guarantees a 50% pro-rata native refund parachute for token buyers if momentum stalls below $80K market cap.
-
----
-
-## ⚡ Core Invariants & Architecture
+4. **72-Hour Soft-Landing Floor Vault** guarantees a 50% pro-rata native refund parachute for token buyers if momentum stalls below $80K market ⚡ Core Invariants & Architecture
 
 ### 1. 🪙 2-2-1 Tri-Vault Revenue Engine
 Every trade allocates a total 5% fee split programmatically:
