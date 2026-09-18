@@ -1,7 +1,7 @@
 # MemeTrench — Protected Memecoin Launchpad & Trading Terminal
 
 The first launchpad engineered so retail traders physically *cannot* be rugged —
-by detectionugveryathematicscs, not promises.
+by rugg detection mathematics, not promises.
 
 
 ## The problem
